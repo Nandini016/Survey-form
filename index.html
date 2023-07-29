@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regestration form</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey About BTS</h1>
+<P id="description"> THANKU FOR TAKING THE TIME TO FILL THE FORM </P>
+<form id="survey-form">
+  <div class="input-element">
+   <label  id="name-label">
+    Name:
+    </label>
+    <input placeholder="name"id="name"   type="text"required/>
+   </div>
+    <div class="input-element">
+   <label id="email-label">
+    Email:
+    </label>
+    <input   placeholder="email"id="email"   type="email"required/>
+   </div>
+
+    <div class="input-element">
+   <label id="number-label" >
+  Age:
+    </label>
+    <input   placeholder="age"id="number" min="8"  max="100" type="number"required/>
+   </div>
+    <div class="input-element">
+   <label id="select-label" >
+  Your Favourite Member?
+    </label>
+    <select ID="dropdown">
+      <option></option>
+      <option>KIM NAMJOON</option>
+      <option>KIM SEOKJIN</option>
+      <option>MIN YOONGI</option>
+      <option>JUNG HOSEOK</option>
+      <option>PARK JIMIN</option>
+      <option>KIM TAEHYUNG</option>
+      <option>JOEN JUNGKOOK</option>
+    </select>
+   </div>
+   <div>
+     <label>Have You Meet Any Member before?</label>
+     <div>
+   <label> 
+    <input type="radio" name="game" value="yes" />Yes</label>
+      </div>
+   <label>
+     <div>
+   <input type="radio" name="game" value="No"/>No</label>
+   </div>
+ </div>
+ <div class="input-element">
+     <label> Things You Like About BTS:</label>
+     <div>
+   <label> 
+    <input type="checkbox"name="idea" value="playing"/>There Energy</label>
+      </div>
+     <div>
+       <label>
+   <input type="checkbox"name="idea" value="tickets"/>The Purple ocean</label>
+   </div>
+     <div>
+       <label>
+   <input type="checkbox"name="idea" value ="food"/>There songs performance</label>
+   </div>
+     <div>
+       <label>
+   <input type="checkbox"name="idea" value ="food"/>There craziness</label>
+   </div>
+     <div>
+       <label>
+        <input type="checkbox"name="idea" value ="superteams"/>Nothing
+ </label>
+ </div>
+<div class="input-element">
+  <label>Additional comments</label>
+  <textarea type="text"></textarea>
+</div>
+<button type="submit" id="submit">Submit</button>
+</form>
+
+</body>
+</html>
